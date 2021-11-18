@@ -2,7 +2,6 @@ import React from "react";
 import { FaBars } from "react-icons/fa";
 import styled from "styled-components";
 import { ProductConsumer } from "../context";
-import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <ProductConsumer>

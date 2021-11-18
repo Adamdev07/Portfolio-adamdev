@@ -12,7 +12,7 @@ export default function Footer() {
               <div className=" py-5 g">
                 <div className=" text-center">
                   <img src={logo} alt="logo" />
-                  <p>Rejoignez-moi sur les réseaux sociaux et restez informé</p>
+                  <p>Join me on social networks and stay informed</p>
                   {value.socialIcons.map((item) => (
                     <a href={item.url} key={item.id} className="pr-3">
                       {item.icon}
